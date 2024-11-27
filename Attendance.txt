@@ -1,4 +1,4 @@
 StudentId:2413111168
 StudentName:Panuwat Summat
-Topic:gitHub
-date:11/20/2024
+Topic:Display, Variable and Input
+date:27/11/2567
