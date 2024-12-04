@@ -25,7 +25,6 @@ public class SalespersonSalary {
 			 System.out.printf("The saleperson's salary is : $%,.2f%n%n",salary);
 		 }
 		 System.out.print("bye");
-		
 		input.close();
 	}
 
