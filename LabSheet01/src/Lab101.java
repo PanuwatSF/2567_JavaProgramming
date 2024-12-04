@@ -5,6 +5,7 @@ public class Lab101 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input product name : ");
+		
 		String productName = input.nextLine();
 		System.out.print("Input product unit : ");
 		int productUnit = input.nextInt();
