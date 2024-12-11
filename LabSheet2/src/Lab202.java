@@ -10,6 +10,7 @@ public class Lab202 {
 			int number = input.nextInt();
 			if (number < minvalue) 
 			{
+				System.out.println();
 				System.out.println("BYE BYE");
 				break;
 				 
