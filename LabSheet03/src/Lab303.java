@@ -3,17 +3,22 @@ public class Lab303 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
 		char space = ' ';
 		int countSpaceber = 0;
-		int countWord;
-		System.out.print("Input the sentence : ");
-		String sentence = input.next();
-		
-		while(!sentence.endsWith(".")) 
-		{
-			System.out.print("Input the sentence, again : ");
-			sentence = input.next();
+		int countWord = 0;
+		boolean isWord = false;
+		String sentence = "";
+		System.out.print("Input a sentence : ");
+        sentence = input.nextLine();
+		 
+		while (!sentence.endsWith(".")) {
+	            System.out.print("Input a sentence, agian : ");
+	            sentence = input.nextLine();
+	            if (sentence.endsWith(".")) {
+	                break;
 		}
+	}
 		System.out.println();
 		for(int i = 0;i < sentence.length();i++) 
 		{
@@ -21,10 +26,17 @@ public class Lab303 {
 			if(ch == space) 
 			{
 				countSpaceber++;
+				isWord = false;
 				
 			}
-		}//ยังไม่เสร็จ
-
+			else if (ch != '.' && !isWord) {
+					countWord++;
+	                isWord = true;
+			}
+		}
+		System.out.println("This sentence has " + countSpaceber + " spacebar.");
+                            System.out.println("This sentence has " + countWord + " word.");
+                            input.close();
 	}
 
 }
