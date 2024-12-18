@@ -30,7 +30,7 @@ public class Lab401 {
 		JOptionPane.showMessageDialog(null, 
 				checkEmail(email)
 				?"Your e-mail is " +email//return true
-				:"Your e-mail is not a hotmail or gamil address");//return false
+				:"Your e-mail is not a hotmail or gamil address"); //return false
 	}// end checkEmailError
 	public static boolean checkEmail(String email) {
 		/*if (email.endsWith("@gmail.com")|| email.endsWith("@hotmail.com")) {

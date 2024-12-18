@@ -23,7 +23,7 @@ public class Lab403 {
 				initailLetter = (initailLetter+fName.charAt(i+1)).toUpperCase()+".";
 			}
 		}
-		return initailLetter;
+		 return initailLetter;
 	}
 
 }
