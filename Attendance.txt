@@ -1,4 +1,4 @@
 StudentId:2413111168
 StudentName:Panuwat Summat
-Topic:String Method
-date:11/12/2567
+Topic:Method
+date:18/12/2567
