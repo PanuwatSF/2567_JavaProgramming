@@ -1,6 +1,5 @@
 import java.util.*;
 public class Lab404 {
-
 	public static void main(String[] args) {
 		 inputStudent();
 	}//end main() Method
@@ -21,7 +20,7 @@ public class Lab404 {
 				boolean isITSubject = isITSubject(subjectCode);
 				System.out.println();
 				System.out.print("Student id: "+ studentID+ " ");
-				displayData(isITStudent,isITSubject);//ยังต้องแก้ คำตอบยังไม่ถูกต้อง
+				displayData(isITStudent,isITSubject);
 				break;
 			}
 		}
@@ -30,26 +29,24 @@ public class Lab404 {
 		return sID.length() == len;
 	}//end isLength() Method
 	public static boolean isITStudent(String sID) {
-		return sID.substring(0,2).equals("21")&&sID.substring(3,6).equals("311");
+		return sID.substring(0,2).equals("21")&&sID.substring(3,6).equals("311");//ตรวจสอบแลัวถ้าใช่ return ture กลับไป
 	}//end isITStuden() Method
 	public static boolean isITSubject(String sJC) {
-		return sJC.substring(0,2).equals("21")&&sJC.charAt(4)=='1';
+		return sJC.substring(0,2).equals("21")&&sJC.charAt(4)=='1';//ตรวจสอบถ้าใช่ return ture กลับไป
 	}//end isITStuden() Method
 	public static void displayData(boolean ITStudent, boolean ITSubject) {
 		if(ITStudent) {
-			System.out.print("is not 1st year student in IT \n");
-		}
-		else {
 			System.out.print("1st year student in IT\n");
 		}
+		else {
+			System.out.print("is not 1st year student in IT \n");
+		}
 		if(ITSubject) {
-		System.out.println("Not enroll in courses for Year 1");
+		System.out.println("Enroll in courses for Year 1");
 		}
 		else {
-		System.out.println("Enroll in courses for Year 1");
+		System.out.println("Not enroll in courses for Year 1");
 		}
 		
 	}
-
 }
-
