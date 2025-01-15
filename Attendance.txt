@@ -1,4 +1,4 @@
 StudentId:2413111168
 StudentName:Panuwat Summat
-Topic:LabSheet#5:Array and Array Method
-date:25/12/2567
+Topic:LabSheet #6: Class and Object
+date:15/1/2568
