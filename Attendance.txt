@@ -1,4 +1,4 @@
 StudentId:2413111168
 StudentName:Panuwat Summat
-Topic:Lab Sheet #7:Encapsulation Concept
-date:22/1/2568
+Topic:Lab Sheet #8: - Array Object - Composition Concept
+date:29/1/2568
