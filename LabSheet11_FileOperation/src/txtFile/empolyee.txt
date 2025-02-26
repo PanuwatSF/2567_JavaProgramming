@@ -1,0 +1,3 @@
+panu	IT
+gus	HR
+name	star
